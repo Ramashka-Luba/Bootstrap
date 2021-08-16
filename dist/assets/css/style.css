@@ -1,21 +1,21 @@
 @font-face {
     font-family: "RobotoMedium";
-    src: url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+    src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "RobotoRegular";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "QuicksandMedium";
-  src: url("./assets/fonts/Quicksand-Medium.ttf") format("truetype");
+  src: url("./../fonts/Quicksand-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "QuicksandBold";
-  src: url("./assets/fonts/Quicksand-Bold.ttf") format("truetype");
+  src: url("./../fonts/Quicksand-Bold.ttf") format("truetype");
 }
 
 .help {
@@ -70,13 +70,13 @@
 .help__card-btn {
     height: 12px;
     width: 20px;
-    background-image: url(../assets/img/arrow-open.svg);
+    background-image: url(../images/arrow-open.svg);
     background-repeat: no-repeat;
     margin-right: 24px;
 }
 
 .help__card-btn.collapsed {
-    background-image: url(../assets/img/arrow.svg);
+    background-image: url(../images/arrow.svg);
     background-repeat: no-repeat;
 }
 
