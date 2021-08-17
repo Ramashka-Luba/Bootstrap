@@ -1,11 +1,16 @@
 @font-face {
-    font-family: "RobotoMedium";
-    src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
+    font-family: "RobotoRegular";
+    src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "RobotoRegular";
-  src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
+    font-family: "RobotoMedium";
+  src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "QuicksandRegular";
+  src: url("./../fonts/Quicksand-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -16,6 +21,103 @@
 @font-face {
     font-family: "QuicksandBold";
   src: url("./../fonts/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+  src: url("./../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+  src: url("./../fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+.about__wrapper {
+    background-image: url "./..images/features/bg.jpg";
+    padding: 175px 0;
+    background-size: cover;
+}
+
+.about__info {
+    margin: 0 33px;
+}
+
+.about__subtitle {
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #4074F8;
+    margin: 33px 0 25px;
+}
+
+.about__text {
+    font-family: "OpenSansSemiBold", sans-serif;
+    font-size: 11px;
+    line-height: 19px;
+    color: #ADB3CB;
+    margin-bottom: 33px;
+}
+
+.about__buttons {
+    margin-top: 92px;
+}
+
+.about__bottons-inner {
+    padding: 0;
+}
+
+.about__btn {
+    width: 115px;
+    height: 45px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-family: "QuicksandBold";
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.btn--red {
+    background-color: #FFD7D7;
+    color: #D43F3F;
+}
+
+.btn--blue {
+    background-color: #D2E1FF;
+    color: #3A79FF;
+}
+
+.text__betweem {
+    position: relative;
+    margin: 0 48px;
+}
+
+@media screen and (max-width: 400px) {
+    .text__betweem {
+        margin: 0 30px;
+    }
+}
+
+.text__betweem::after {
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+    position: absolute;
+    top: 50%;
+    right: 150%;
+}
+
+.text__betweem::before {
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+    position: absolute;
+    top: 50%;
+    left: 150%;
 }
 
 .help {
@@ -93,6 +195,13 @@
     -ms-flex-align: start;
     align-items: flex-start;
     padding: 16px 10px 50px 72px;
+}
+
+@media screen and (max-width: 992px) {
+    .help__card-body {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
 .help__card-text {
