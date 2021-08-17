@@ -124,9 +124,8 @@
 }
 
 .about {
-    background-image: url(./..images/features/bg.jpg);
     padding: 175px 0;
-    background-size: cover;
+    background: url(.././images/about/img1.svg) 91% 25% no-repeat, url(.././images/about/img2.svg) 19% 10% no-repeat, url(.././images/about/img3.svg) 9% 75% no-repeat;
 }
 
 .about__slogan {

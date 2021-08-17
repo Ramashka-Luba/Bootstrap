@@ -104,11 +104,17 @@
 ///row1
 .about {
     padding: 175px 0;
-    
+
     background:
 	url(.././images/about/img1.svg) 91% 25% no-repeat, 
 	url(.././images/about/img2.svg) 19% 10% no-repeat, 
 	url(.././images/about/img3.svg) 9% 75% no-repeat;
+    @media screen and (max-width: 992px) {
+        padding: 100px 0;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 70px 0;
+    }
 }
 .about__slogan {
     display: inline-block;
@@ -135,6 +141,12 @@
 ///row3
 .about__buttons {
     margin-top: 92px;
+    @media screen and (max-width: 768px) {
+        margin-top: 50px;
+    }
+    @media screen and (max-width: 576px) {
+        margin-top: 30px;
+    }
 }
 .about__bottons-inner {
     padding: 0;
@@ -184,11 +196,62 @@
         left: 150%;
     }
 }
+//////////// stats block ////////////
+.stats__customers {
+    background: linear-gradient(rgba(104, 136, 255, 1),rgba(94, 128, 255, 1));
+    padding: 65px 90px  65px 0;
+    @media screen and (max-width: 768px) {
+        padding: 45px 90px  45px 0;
+    }
+    
+}
+.stats__users {
+    background: linear-gradient(rgba(233, 239, 255, 1),rgba(224, 233, 255, 1));
+    padding: 65px 0  65px 90px;
+    @media screen and (max-width: 768px) {
+        padding: 45px 0 45px 90px;
+    }
+}
+.customers__percent {
+    font-family: "QuicksandRegular";
+    font-size: 48px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.users__count {
+    font-family: "QuicksandRegular";
+    font-size: 48px;
+    line-height: 50px;
+    color: #5E80FF;
+    margin: 20px 0;
+}
+.stats__text-left {
+    font-family: "QuicksandMedium";
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 260px;
+
+}
+.stats__text-right {
+    font-family: "QuicksandMedium";
+    font-size: 18px;
+    line-height: 30px;
+    color: #5E80FF;
+    max-width: 260px;
+}
 
 //////////// help block ////////////
 ///row1
 .help {
     padding: 175px 0;
+    @media screen and (max-width: 992px) {
+        padding: 100px 0;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 70px 0;
+    }
 }
 .title__h2 {
     font-family: "RobotoMedium", sans-serif;
