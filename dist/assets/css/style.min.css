@@ -26,10 +26,80 @@
   font-family: "OpenSansSemiBold";
   src: url("./../fonts/OpenSans-SemiBold.ttf") format("truetype"); }
 
-.about__wrapper {
-  background-image: url "./..images/features/bg.jpg";
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.app {
+  padding: 210px 0;
+  background-color: #F5F8FF;
+  background-image: url(./../images/app/illustration.png);
+  background-repeat: no-repeat;
+  background-position: 100% 130px; }
+  @media screen and (max-width: 1380px) {
+    .app {
+      padding: 150px 0 600px;
+      background-position: 50% 530px; } }
+  @media screen and (max-width: 830px) {
+    .app {
+      padding: 100px 0 450px;
+      background-size: 570px;
+      background-position: 50% 450px; } }
+  @media screen and (max-width: 580px) {
+    .app {
+      padding: 70px 0 420px;
+      background-size: 500px;
+      background-position: 50% 420px; } }
+  @media screen and (max-width: 450px) {
+    .app {
+      padding-bottom: 300px;
+      background-size: 350px;
+      background-position: 50% 460px; } }
+
+@media screen and (max-width: 1380px) {
+  .app__row {
+    display: flex;
+    justify-content: center; } }
+
+.app__slogan {
+  font-family: "QuicksandRegular", sans-serif;
+  font-size: 36px;
+  color: #3D4F9F;
+  line-height: 45px;
+  display: inline-block;
+  margin-bottom: 25px; }
+
+.slogan-bold {
+  font-family: "QuicksandMedium", sans-serif; }
+
+.app__text {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 15px;
+  line-height: 29px;
+  color: #ADB3CB;
+  margin-bottom: 45px; }
+
+.app__btn {
+  width: 130px;
+  height: 43px; }
+
+.btn--video {
+  background-color: #4C85FF;
+  color: #FFFFFF; }
+
+.btn--features {
+  border: 1px solid #D1D1E4;
+  color: #ADB4D2; }
+
+.about {
+  background-image: url(./..images/features/bg.jpg);
   padding: 175px 0;
   background-size: cover; }
+
+.about__slogan {
+  display: inline-block;
+  margin-bottom: 90px; }
 
 .about__info {
   margin: 0 33px; }
@@ -98,20 +168,23 @@
 .help {
   padding: 175px 0; }
 
-.title {
-  color: #3D4F9F;
-  margin-bottom: 68px; }
-
-.title__text {
+.title__h2 {
   font-family: "RobotoMedium", sans-serif;
   font-size: 10px;
+  color: #3D4F9F;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px; }
 
-.title__slogan {
+.help__slogan {
+  display: inline-block;
+  margin-bottom: 70px; }
+
+.slogan {
   font-family: "QuicksandMedium", sans-serif;
-  font-size: 24px; }
+  font-size: 24px;
+  color: #3D4F9F;
+  line-height: 30px; }
 
 .help__card {
   border: none !important;
