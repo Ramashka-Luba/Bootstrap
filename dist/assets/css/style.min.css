@@ -218,6 +218,23 @@
   color: #5E80FF;
   max-width: 260px; }
 
+.recources {
+  padding: 100px 0;
+  background-color: #727377; }
+  @media screen and (max-width: 768px) {
+    .recources {
+      margin-bottom: 70px; } }
+
+.recources__slogan {
+  display: inline-block;
+  margin-bottom: 90px; }
+  @media screen and (max-width: 992px) {
+    .recources__slogan {
+      margin-bottom: 70px; } }
+  @media screen and (max-width: 768px) {
+    .recources__slogan {
+      margin-bottom: 50px; } }
+
 .help {
   padding: 175px 0; }
   @media screen and (max-width: 992px) {

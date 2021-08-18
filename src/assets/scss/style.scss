@@ -242,6 +242,28 @@
     max-width: 260px;
 }
 
+//////////// recources block ////////////
+.recources {
+    padding: 100px 0;
+    // background-color: #F5F8FF;
+    background-color: #727377;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 70px;
+    }
+}
+.recources__slogan {
+    display: inline-block;
+    margin-bottom: 90px;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 70px;
+    }
+    @media screen and (max-width: 768px) {
+        margin-bottom: 50px;
+    }
+}
+
+
+
 //////////// help block ////////////
 ///row1
 .help {
