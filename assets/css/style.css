@@ -128,6 +128,18 @@
     background: url(.././images/about/img1.svg) 91% 25% no-repeat, url(.././images/about/img2.svg) 19% 10% no-repeat, url(.././images/about/img3.svg) 9% 75% no-repeat;
 }
 
+@media screen and (max-width: 992px) {
+    .about {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 70px 0;
+    }
+}
+
 .about__slogan {
     display: inline-block;
     margin-bottom: 90px;
@@ -155,6 +167,18 @@
 
 .about__buttons {
     margin-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .about__buttons {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__buttons {
+        margin-top: 30px;
+    }
 }
 
 .about__bottons-inner {
@@ -214,8 +238,102 @@
     left: 150%;
 }
 
+.stats__customers {
+    background: linear-gradient(#6888ff, #5e80ff);
+    padding: 65px 90px  65px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .stats__customers {
+        padding: 45px 90px  45px 0;
+    }
+}
+
+.stats__users {
+    background: linear-gradient(#e9efff, #e0e9ff);
+    padding: 65px 0  65px 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .stats__users {
+        padding: 45px 0 45px 90px;
+    }
+}
+
+.customers__percent {
+    font-family: "QuicksandRegular";
+    font-size: 48px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.users__count {
+    font-family: "QuicksandRegular";
+    font-size: 48px;
+    line-height: 50px;
+    color: #5E80FF;
+    margin: 20px 0;
+}
+
+.stats__text-left {
+    font-family: "QuicksandMedium";
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 260px;
+}
+
+.stats__text-right {
+    font-family: "QuicksandMedium";
+    font-size: 18px;
+    line-height: 30px;
+    color: #5E80FF;
+    max-width: 260px;
+}
+
+.recources {
+    padding: 100px 0;
+    background-color: #727377;
+}
+
+@media screen and (max-width: 768px) {
+    .recources {
+        margin-bottom: 70px;
+    }
+}
+
+.recources__slogan {
+    display: inline-block;
+    margin-bottom: 90px;
+}
+
+@media screen and (max-width: 992px) {
+    .recources__slogan {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recources__slogan {
+        margin-bottom: 50px;
+    }
+}
+
 .help {
     padding: 175px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .help {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .help {
+        padding: 70px 0;
+    }
 }
 
 .title__h2 {
