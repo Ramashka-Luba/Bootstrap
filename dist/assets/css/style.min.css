@@ -115,7 +115,8 @@ li {
   height: 43px; }
 
 .play {
-  background: linear-gradient(180deg, #e6ecfc 0%, #F1F5FF 100%); }
+  background: url(.././images/headerContent/Ellipse1.png) left 20% no-repeat, url(.././images/headerContent/Ellipse2.png) 15% 10% no-repeat, url(.././images/headerContent/Ellipse3.png) 18% 60% no-repeat, url(.././images/headerContent/Ellipse4.png) 95% 5% no-repeat, url(.././images/headerContent/Ellipse5.png) right 68% no-repeat, url(.././images/headerContent/Ellipse6.png) 90% 80% no-repeat, linear-gradient(180deg, #e6ecfc 0%, #F1F5FF 100%);
+  padding-bottom: 250px; }
 
 .play__inner {
   display: flex;
@@ -171,20 +172,25 @@ li {
   background-color: #387dff !important;
   border-radius: 50%; }
 
+.header__content .carousel-indicators {
+  bottom: 20px; }
+
 .play__block {
   width: 100%;
   height: 100%;
-  bottom: 135px; }
-
-.play__block {
-  position: relative; }
-
-.svg__circle-one {
-  width: 15px;
-  height: 15px;
   position: absolute;
-  top: 100px;
-  left: 100px; }
+  bottom: -150px; }
+
+.play__cicle {
+  position: relative; }
+  .play__cicle::after {
+    content: "";
+    background: #000;
+    width: 92px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .app {
   padding: 210px 0;
@@ -417,18 +423,18 @@ li {
 
 .slider__collage-first {
   grid-area: 1/1/3/2;
-  background: linear-gradient(rgba(255, 198, 50, 0.44) 0%, rgba(255, 227, 154, 0.93) 0.01%, rgba(255, 159, 90, 0) 100%), url(./../images/recources/collage1.png);
+  background: linear-gradient(13.46deg, rgba(255, 198, 50, 0.44) 1.89%, rgba(255, 227, 154, 0.93) 1.9%, rgba(255, 159, 90, 0) 68.24%), url(./../images/recources/collage1.png);
   box-shadow: 0px 15px 100px #e5ebf8; }
   @media screen and (max-width: 470px) {
     .slider__collage-first {
       grid-area: 1/1/2/2; } }
 
 .slider__collage-second {
-  background: linear-gradient(rgba(255, 53, 53, 0.48), rgba(255, 179, 90, 0)), url(.././images/recources/collage2.jpg);
+  background: linear-gradient(27.48deg, rgba(255, 53, 53, 0.48) 14.02%, rgba(255, 179, 90, 0) 68%), url(.././images/recources/collage2.png);
   box-shadow: 0px 15px 100px #E5EBF8; }
 
 .slider__collage-third {
-  background: linear-gradient(rgba(53, 170, 255, 0.68), rgba(90, 136, 255, 0)), url(.././images/recources/collage3.jpg);
+  background: linear-gradient(13.49deg, rgba(53, 170, 255, 0.68) 11.59%, rgba(90, 136, 255, 0) 96.88%), url(.././images/recources//collage3.png);
   box-shadow: 0px 15px 100px #E5EBF8; }
 
 .slider__collage-first,
@@ -485,12 +491,17 @@ li {
   color: #A6B6DA; }
 
 .carousel-control-prev-icon {
-  background-image: url(.././images/recources/arrowBack.svg);
-  left: -75px; }
+  background-image: url(.././images/recources/arrowBack.svg); }
 
 .carousel-control-next-icon {
   background-image: url(.././images/recources/arrowNext.svg);
   right: -75px; }
+
+.carousel-control-next {
+  right: -75px; }
+
+.carousel-control-prev {
+  left: -75px; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
